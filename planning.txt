@@ -1,0 +1,10 @@
+Syngabook
+
+Homepage
+Shop / store
+Category
+Cart
+Order
+Checkout
+FAQs
+About

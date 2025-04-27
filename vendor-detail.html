@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Syngabook market - vendor detail</title>
+  <link rel="icon" type="image/x-icon" href="static/favicon.ico" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="font-sans antialiased text-gray-800 bg-gray-50">
+
+
+
+<div id="banner-section" class="bg-pink-300 text-blue-700 text-center py-2 text-sm font-medium">
+  <p class="banner-content">💳 100% Secure & Safe Payments.</p>
+</div>
+
+<nav class="bg-white border-gray-200">
+  <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl px-4 py-2">
+    <!-- <a href=https://flowbite.com" class="flex items-center space-x-3">
+      <img src="https://flowbite.com/docs/images/logo.svg" class="h-8" alt="Flowbite Logo" />
+      <span class="self-center text-2xl font-semibold whitespace-nowrap">Syngabook market</span>
+    </a> -->
+
+    <div class="flex justify-start items-center">
+      <button data-drawer-target="drawer-navigation" data-drawer-show="drawer-navigation" aria-controls="drawer-navigation" class="p-1.5 mr-2 cursor-pointer text-blue-700">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="size-6"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" /></svg>
+      </button>
+
+      <a href="index.html" style="text-shadow: 1px 1px 2px black;" class="text-lg font-bold text-blue-700 uppercase">Syngabook market</a>
+    </div>
+
+    <div class="flex items-center space-x-6">
+      <input type="text" id="search-navbar" class="block w-full p-2 ps-10 text-sm text-gray-900 border border-gray-300 rounded-2xl bg-gray-50 focus:ring-blue-500 focus:border-blue-500" placeholder="Search for products...">
+
+      <a href="cart.html" class="text-sm text-blue-600"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" /></svg></a>
+
+      <a href="#" class="text-sm text-blue-600"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6"><path stroke-linecap="round" stroke-linejoin="round" d="M14.857 17.082a23.848 23.848 0 0 0 5.454-1.31A8.967 8.967 0 0 1 18 9.75V9A6 6 0 0 0 6 9v.75a8.967 8.967 0 0 1-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 0 1-5.714 0m5.714 0a3 3 0 1 1-5.714 0" /></svg></a>
+    </div>
+  </div>
+</nav>
+<nav class="bg-gray-50">
+  <div class="max-w-screen-xl px-4 py-3 mx-auto">
+    <div class="flex items-center">
+      <ul class="flex flex-row font-medium mt-0 space-x-8 text-sm whitespace-nowrap overflow-x-auto scrollbar-hide scroll-smooth">
+        <li>
+          <a href="#" class="hover:text-pink-500 hover:underline">All categories</a>
+        </li>
+        <li>
+          <a href="#" class="hover:text-pink-500 hover:underline">Men's clothing</a>
+        </li>
+        <li>
+          <a href="#" class="hover:text-pink-500 hover:underline">Women's clothing</a>
+        </li>
+        <li>
+          <a href="#" class="hover:text-pink-500 hover:underline">Electronics</a>
+        </li>
+        <li>
+          <a href="#" class="hover:text-pink-500 hover:underline">Health & Household</a>
+        </li>
+        <li>
+          <a href="#" class="hover:text-pink-500 hover:underline">Kids' clothing</a>
+        </li>
+        <li>
+          <a href="#" class="hover:text-pink-500 hover:underline">Accessories</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<main class="bg-white p-4">
+
+  <div class="sm:flex sm:gap-5 items-center space-x-3 py-2">
+    <div class="flex-shrink-0 w-full mb-6 h-70 sm:h-32 sm:w-32 sm:mb-0">
+      <img class="object-cover object-center w-full h-full rounded-lg border" src="static/avatar.webp" alt="Vendor"/>
+    </div>
+    <div class="flex flex-col">
+      <div class="space-y-2 mb-2">
+        <h2 class="text-lg font-bold">Yanounou</h2>
+        <div id="followers-number" class="flex items-center gap-2 text-sm">
+          <span>2.4k followers
+          </span>|
+          <span>450 Sold</span>|
+          <span>860 Items</span> 
+        </div>
+      </div>
+
+      <div class="mt-2 text-gray-500">
+        <button type="button" class="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-all">Follow</button>
+      </div>
+    </div>
+  </div>
+
+  <hr class="my-6">
+
+  <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4 md:gap-6 mb-8">
+    <section class="overflow-hidden relative">
+      <div class="absolute top-2 left-2 z-10">
+        <button type="button" class="flex-shrink-0 rounded-full items-center p-1 bg-gray-50 hover:text-pink-500 hover:bg-gray-100 transition duration-300"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5"><path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"/></svg></button>
+      </div>
+
+      <!-- Discount Badge -->
+      <span class="absolute top-2 right-0 bg-pink-500 z-10 text-white text-xs font-bold px-2 py-1 rounded-l">50%</span>
+
+      <div class="absolute top-8 right-0 z-10">
+        <img src="static/promo-badge.gif" alt="promo-badge" height="50" width="50" class="size-[50px]">
+      </div>
+
+      <div class="flex-shrink-0">
+        <a href="detail.html" class="block aspect-[4/3]">
+          <img src="static/p01.jpg" class="w-full h-52 md:h-64 rounded-lg" loading="lazy">
+        </a>
+      </div>
+
+      <div class="truncate mb-1">
+        <a href="detail.html" class="text-sm hover:text-pink-500 transition-all duration-500">Lorem ipsum dolor sit amet consectetur adipisicing sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</a>
+      </div>
+
+      <div class="flex items-center justify-between space-x-4">
+        <div class="flex gap-2 items-center">
+          <span class="text-pink-500 font-bold">50€</span>
+          <span class="text-sm text-gray-500 line-through">100€</span>
+        </div>
+
+        <a href="#" class="text-white px-3 py-1 rounded-full bg-blue-600 hover:bg-blue-800 transition duration-300"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" /></svg></a>
+      </div>
+
+      <div class="flex items-center text-gray-500 text-xs space-x-4">
+        <span class="px-1 py-0.5 bg-gray-100 rounded">Yanounou</span>
+
+        <span class="flex gap-1 items-center"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-5 text-pink-500"><path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd"/></svg> 4.8/450</span>
+      </div>
+    </section>
+    <!-- another card -->
+    <section class="overflow-hidden relative">
+      <div class="absolute top-2 left-2 z-10">
+        <button type="button" class="flex-shrink-0 rounded-full items-center p-1 bg-gray-50 hover:text-pink-500 hover:bg-gray-100 transition duration-300"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5"><path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"/></svg></button>
+      </div>
+
+      <!-- Discount Badge -->
+      <span class="absolute top-2 right-0 bg-pink-500 z-10 text-white text-xs font-bold px-2 py-1 rounded">40%</span>
+
+      <div class="absolute top-8 right-0 z-10">
+        <img src="static/promo-badge.gif" alt="promo-badge" height="50" width="50" class="size-[50px]">
+      </div>
+
+      <div class="flex-shrink-0">
+        <a href="detail.html" class="block aspect-[4/3]">
+          <img src="static/p02.jpg" class="w-full h-52 md:h-64 rounded-lg" loading="lazy">
+        </a>
+      </div>
+
+      <div class="truncate mb-1">
+        <a href="detail.html" class="text-sm hover:text-pink-500 transition-all duration-500">Lorem ipsum dolor sit amet consectetur adipisicing sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</a>
+      </div>
+
+      <div class="flex items-center justify-between space-x-4">
+        <div class="flex gap-2 items-center">
+          <span class="text-pink-500 font-bold">20€</span>
+          <span class="text-sm text-gray-500 line-through">45€</span>
+        </div>
+
+        <a href="#" class="text-white px-3 py-1 rounded-full bg-blue-600 hover:bg-blue-800 transition duration-300"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" /></svg></a>
+      </div>
+
+      <div class="flex items-center text-gray-500 text-xs space-x-4">
+        <span class="px-1 py-0.5 bg-gray-100 rounded items-center">Best seller</span>
+
+        <span class="flex gap-1"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-5 text-pink-500"><path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd"/></svg> 4.8/450</span>
+      </div>
+    </section>
+
+    <section class="overflow-hidden relative">
+      <div class="absolute top-2 left-2 z-10">
+        <button type="button" class="flex-shrink-0 rounded-full items-center p-1 bg-gray-50 hover:text-pink-500 hover:bg-gray-100 transition duration-300"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5"><path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"/></svg></button>
+      </div>
+
+      <!-- Discount Badge -->
+      <span class="absolute top-2 right-0 bg-pink-500 z-10 text-white text-xs font-bold px-2 py-1 rounded">40%</span>
+
+      <div class="absolute top-8 right-0 z-10">
+        <img src="static/promo-badge.gif" alt="promo-badge" height="50" width="50" class="size-[50px]">
+      </div>
+
+      <div class="flex-shrink-0">
+        <a href="detail.html" class="block aspect-[4/3]">
+          <img src="static/p03.jpg" class="w-full h-52 md:h-64 rounded-lg" loading="lazy">
+        </a>
+      </div>
+
+      <div class="truncate mb-1">
+        <a href="detail.html" class="text-sm hover:text-pink-500 transition-all duration-500">Lorem ipsum dolor sit amet consectetur adipisicing sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</a>
+      </div>
+
+      <div class="flex items-center justify-between space-x-4">
+        <div class="flex gap-2 items-center">
+          <span class="text-pink-500 font-bold">20€</span>
+          <span class="text-sm text-gray-500 line-through">45€</span>
+        </div>
+
+        <a href="#" class="text-white px-3 py-1 rounded-full bg-blue-600 hover:bg-blue-800 transition duration-300"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" /></svg></a>
+      </div>
+
+      <div class="flex items-center text-gray-500 text-xs space-x-4">
+        <span class="px-1 py-0.5 bg-gray-100 rounded items-center">Best seller</span>
+
+        <span class="flex gap-1"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-5 text-pink-500"><path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd"/></svg> 4.8/450</span>
+      </div>
+    </section>
+
+    <section class="overflow-hidden relative">
+      <div class="absolute top-2 left-2 z-10">
+        <button type="button" class="flex-shrink-0 rounded-full items-center p-1 bg-gray-50 hover:text-pink-500 hover:bg-gray-100 transition duration-300"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5"><path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"/></svg></button>
+      </div>
+
+      <!-- Discount Badge -->
+      <span class="absolute top-2 right-0 bg-pink-500 z-10 text-white text-xs font-bold px-2 py-1 rounded">40%</span>
+
+      <div class="absolute top-8 right-0 z-10">
+        <img src="static/promo-badge.gif" alt="promo-badge" height="50" width="50" class="size-[50px]">
+      </div>
+
+      <div class="flex-shrink-0">
+        <a href="detail.html" class="block aspect-[4/3]">
+          <img src="static/p04.jpg" class="w-full h-52 md:h-64 rounded-lg" loading="lazy">
+        </a>
+      </div>
+
+      <div class="truncate mb-1">
+        <a href="detail.html" class="text-sm hover:text-pink-500 transition-all duration-500">Lorem ipsum dolor sit amet consectetur adipisicing sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</a>
+      </div>
+
+      <div class="flex items-center justify-between space-x-4">
+        <div class="flex gap-2 items-center">
+          <span class="text-pink-500 font-bold">20€</span>
+          <span class="text-sm text-gray-500 line-through">45€</span>
+        </div>
+
+        <a href="#" class="text-white px-3 py-1 rounded-full bg-blue-600 hover:bg-blue-800 transition duration-300"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" /></svg></a>
+      </div>
+
+      <div class="flex items-center text-gray-500 text-xs space-x-4">
+        <span class="px-1 py-0.5 bg-gray-100 rounded items-center">Daxemare</span>
+
+        <span class="flex gap-1"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-5 text-pink-500"><path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd"/></svg> 4.8/450</span>
+      </div>
+    </section>
+
+    <section class="overflow-hidden relative">
+      <div class="absolute top-2 left-2 z-10">
+        <button type="button" class="flex-shrink-0 rounded-full items-center p-1 bg-gray-50 hover:text-pink-500 hover:bg-gray-100 transition duration-300"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5"><path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"/></svg></button>
+      </div>
+
+      <!-- Discount Badge -->
+      <span class="absolute top-2 right-0 bg-pink-500 z-10 text-white text-xs font-bold px-2 py-1 rounded">40%</span>
+
+      <div class="absolute top-8 right-0 z-10">
+        <img src="static/promo-badge.gif" alt="promo-badge" height="50" width="50" class="size-[50px]">
+      </div>
+
+      <div class="flex-shrink-0">
+        <a href="detail.html" class="block aspect-[4/3]">
+          <img src="static/p05.jpg" class="w-full h-52 md:h-64 rounded-lg" loading="lazy">
+        </a>
+      </div>
+
+      <div class="truncate mb-1">
+        <a href="detail.html" class="text-sm hover:text-pink-500 transition-all duration-500">Lorem ipsum dolor sit amet consectetur adipisicing sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</a>
+      </div>
+
+      <div class="flex items-center justify-between space-x-4">
+        <div class="flex gap-2 items-center">
+          <span class="text-pink-500 font-bold">20€</span>
+          <span class="text-sm text-gray-500 line-through">45€</span>
+        </div>
+
+        <a href="#" class="text-white px-3 py-1 rounded-full bg-blue-600 hover:bg-blue-800 transition duration-300"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" /></svg></a>
+      </div>
+
+      <div class="flex items-center text-gray-500 text-xs space-x-4">
+        <span class="px-1 py-0.5 bg-gray-100 rounded items-center">Yanounou</span>
+
+        <span class="flex gap-1"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-5 text-pink-500"><path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd"/></svg> 4.8/450</span>
+      </div>
+    </section>
+
+    <section class="overflow-hidden relative">
+      <div class="absolute top-2 left-2 z-10">
+        <button type="button" class="flex-shrink-0 rounded-full items-center p-1 bg-gray-50 hover:text-pink-500 hover:bg-gray-100 transition duration-300"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5"><path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"/></svg></button>
+      </div>
+
+      <!-- Discount Badge -->
+      <span class="absolute top-2 right-0 bg-pink-500 z-10 text-white text-xs font-bold px-2 py-1 rounded">40%</span>
+
+      <div class="absolute top-8 right-0 z-10">
+        <img src="static/promo-badge.gif" alt="promo-badge" height="50" width="50" class="size-[50px]">
+      </div>
+
+      <div class="flex-shrink-0">
+        <a href="detail.html" class="block aspect-[4/3]">
+          <img src="static/p06.jpg" class="w-full h-52 md:h-64 rounded-lg" loading="lazy">
+        </a>
+      </div>
+
+      <div class="truncate mb-1">
+        <a href="detail.html" class="text-sm hover:text-pink-500 transition-all duration-500">Lorem ipsum dolor sit amet consectetur adipisicing sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</a>
+      </div>
+
+      <div class="flex items-center justify-between space-x-4">
+        <div class="flex gap-2 items-center">
+          <span class="text-pink-500 font-bold">20€</span>
+          <span class="text-sm text-gray-500 line-through">45€</span>
+        </div>
+
+        <a href="#" class="text-white px-3 py-1 rounded-full bg-blue-600 hover:bg-blue-800 transition duration-300"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" /></svg></a>
+      </div>
+
+      <div class="flex items-center text-gray-500 text-xs space-x-4">
+        <span class="px-1 py-0.5 bg-gray-100 rounded items-center">Yanounou</span>
+
+        <span class="flex gap-1"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-5 text-pink-500"><path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd"/></svg> 4.8/450</span>
+      </div>
+    </section>
+
+    <section class="overflow-hidden relative">
+      <div class="absolute top-2 left-2 z-10">
+        <button type="button" class="flex-shrink-0 rounded-full items-center p-1 bg-gray-50 hover:text-pink-500 hover:bg-gray-100 transition duration-300"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5"><path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"/></svg></button>
+      </div>
+
+      <!-- Discount Badge -->
+      <span class="absolute top-2 right-0 bg-pink-500 z-10 text-white text-xs font-bold px-2 py-1 rounded">40%</span>
+
+      <div class="absolute top-8 right-0 z-10">
+        <img src="static/promo-badge.gif" alt="promo-badge" height="50" width="50" class="size-[50px]">
+      </div>
+
+      <div class="flex-shrink-0">
+        <a href="detail.html" class="block aspect-[4/3]">
+          <img src="static/p07.jpg" class="w-full h-52 md:h-64 rounded-lg" loading="lazy">
+        </a>
+      </div>
+
+      <div class="truncate mb-1">
+        <a href="detail.html" class="text-sm hover:text-pink-500 transition-all duration-500">Lorem ipsum dolor sit amet consectetur adipisicing sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</a>
+      </div>
+
+      <div class="flex items-center justify-between space-x-4">
+        <div class="flex gap-2 items-center">
+          <span class="text-pink-500 font-bold">20€</span>
+          <span class="text-sm text-gray-500 line-through">45€</span>
+        </div>
+
+        <a href="#" class="text-white px-3 py-1 rounded-full bg-blue-600 hover:bg-blue-800 transition duration-300"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" /></svg></a>
+      </div>
+
+      <div class="flex items-center text-gray-500 text-xs space-x-4">
+        <span class="px-1 py-0.5 bg-gray-100 rounded items-center">Yanounou</span>
+
+        <span class="flex gap-1"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-5 text-pink-500"><path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd"/></svg> 4.8/450</span>
+      </div>
+    </section>
+
+    <section class="overflow-hidden relative">
+      <div class="absolute top-2 left-2 z-10">
+        <button type="button" class="flex-shrink-0 rounded-full items-center p-1 bg-gray-50 hover:text-pink-500 hover:bg-gray-100 transition duration-300"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5"><path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"/></svg></button>
+      </div>
+
+      <!-- Discount Badge -->
+      <span class="absolute top-2 right-0 bg-pink-500 z-10 text-white text-xs font-bold px-2 py-1 rounded">40%</span>
+
+      <div class="absolute top-8 right-0 z-10">
+        <img src="static/promo-badge.gif" alt="promo-badge" height="50" width="50" class="size-[50px]">
+      </div>
+
+      <div class="flex-shrink-0">
+        <a href="detail.html" class="block aspect-[4/3]">
+          <img src="static/p08.jpg" class="w-full h-52 md:h-64 rounded-lg" loading="lazy">
+        </a>
+      </div>
+
+      <div class="truncate mb-1">
+        <a href="detail.html" class="text-sm hover:text-pink-500 transition-all duration-500">Lorem ipsum dolor sit amet consectetur adipisicing sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</a>
+      </div>
+
+      <div class="flex items-center justify-between space-x-4">
+        <div class="flex gap-2 items-center">
+          <span class="text-pink-500 font-bold">20€</span>
+          <span class="text-sm text-gray-500 line-through">45€</span>
+        </div>
+
+        <a href="#" class="text-white px-3 py-1 rounded-full bg-blue-600 hover:bg-blue-800 transition duration-300"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" /></svg></a>
+      </div>
+
+      <div class="flex items-center text-gray-500 text-xs space-x-4">
+        <span class="px-1 py-0.5 bg-gray-100 rounded items-center">Yanounou</span>
+
+        <span class="flex gap-1"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-5 text-pink-500"><path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd"/></svg> 4.8/450</span>
+      </div>
+    </section>
+
+    <section class="overflow-hidden relative">
+      <div class="absolute top-2 left-2 z-10">
+        <button type="button" class="flex-shrink-0 rounded-full items-center p-1 bg-gray-50 hover:text-pink-500 hover:bg-gray-100 transition duration-300"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5"><path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"/></svg></button>
+      </div>
+
+      <!-- Discount Badge -->
+      <span class="absolute top-2 right-0 bg-pink-500 z-10 text-white text-xs font-bold px-2 py-1 rounded">40%</span>
+
+      <div class="absolute top-8 right-0 z-10">
+        <img src="static/promo-badge.gif" alt="promo-badge" height="50" width="50" class="size-[50px]">
+      </div>
+
+      <div class="flex-shrink-0">
+        <a href="detail.html" class="block aspect-[4/3]">
+          <img src="static/p09.jpg" class="w-full h-52 md:h-64 rounded-lg" loading="lazy">
+        </a>
+      </div>
+
+      <div class="truncate mb-1">
+        <a href="detail.html" class="text-sm hover:text-pink-500 transition-all duration-500">Lorem ipsum dolor sit amet consectetur adipisicing sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</a>
+      </div>
+
+      <div class="flex items-center justify-between space-x-4">
+        <div class="flex gap-2 items-center">
+          <span class="text-pink-500 font-bold">20€</span>
+          <span class="text-sm text-gray-500 line-through">45€</span>
+        </div>
+
+        <a href="#" class="text-white px-3 py-1 rounded-full bg-blue-600 hover:bg-blue-800 transition duration-300"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" /></svg></a>
+      </div>
+
+      <div class="flex items-center text-gray-500 text-xs space-x-4">
+        <span class="px-1 py-0.5 bg-gray-100 rounded items-center">Yanounou</span>
+
+        <span class="flex gap-1"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-5 text-pink-500"><path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd"/></svg> 4.8/450</span>
+      </div>
+    </section>
+
+    <section class="overflow-hidden relative">
+      <div class="absolute top-2 left-2 z-10">
+        <button type="button" class="flex-shrink-0 rounded-full items-center p-1 bg-gray-50 hover:text-pink-500 hover:bg-gray-100 transition duration-300"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5"><path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"/></svg></button>
+      </div>
+
+      <!-- Discount Badge -->
+      <span class="absolute top-2 right-0 bg-pink-500 z-10 text-white text-xs font-bold px-2 py-1 rounded">40%</span>
+
+      <div class="absolute top-8 right-0 z-10">
+        <img src="static/promo-badge.gif" alt="promo-badge" height="50" width="50" class="size-[50px]">
+      </div>
+
+      <div class="flex-shrink-0">
+        <a href="detail.html" class="block aspect-[4/3]">
+          <img src="static/p10.jpg" class="w-full h-52 md:h-64 rounded-lg" loading="lazy">
+        </a>
+      </div>
+
+      <div class="truncate mb-1">
+        <a href="detail.html" class="text-sm hover:text-pink-500 transition-all duration-500">Lorem ipsum dolor sit amet consectetur adipisicing sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</a>
+      </div>
+
+      <div class="flex items-center justify-between space-x-4">
+        <div class="flex gap-2 items-center">
+          <span class="text-pink-500 font-bold">20€</span>
+          <span class="text-sm text-gray-500 line-through">45€</span>
+        </div>
+
+        <a href="#" class="text-white px-3 py-1 rounded-full bg-blue-600 hover:bg-blue-800 transition duration-300"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" /></svg></a>
+      </div>
+
+      <div class="flex items-center text-gray-500 text-xs space-x-4">
+        <span class="px-1 py-0.5 bg-gray-100 rounded items-center">Yanounou</span>
+
+        <span class="flex gap-1"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-5 text-pink-500"><path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd"/></svg> 4.8/450</span>
+      </div>
+    </section>
+  </div>
+
+  <div class="htmx-indicator text-center text-lg text-blue-600">Loading...'</div>
+
+</main>
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
+</body>
+</html>
